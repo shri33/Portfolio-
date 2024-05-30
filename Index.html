@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Shri Srivastava's Portfolio</title>
+   <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+<body>
+   <div id="mode-toggle">
+       <i class="fas fa-sun"></i>
+       <i class="fas fa-moon"></i>
+   </div>
+   <header>
+       <nav>
+           <ul>
+               <li><a href="#about">About</a></li>
+               <li><a href="#skills">Skills</a></li>
+               <li><a href="#projects">Projects</a></li>
+               <li><a href="#experience">Experience</a></li>
+               <li><a href="#education">Education</a></li>
+               <li><a href="#contact">Contact</a></li>
+           </ul>
+       </nav>
+   </header>
+   <main>
+       <section id="hero">
+           <h1>Shri Srivastava</h1>
+           <p>Front-End Developer Specialist</p>
+           <div class="social-links">
+               <a href="https://www.linkedin.com/in/shri-srivastava" target="_blank"><i class="fab fa-linkedin"></i></a>
+               <a href="https://github.com/shri33" target="_blank"><i class="fab fa-github"></i></a>
+               <a href="https://shri33.github.io" target="_blank"><i class="fas fa-globe"></i></a>
+           </div>
+       </section>
+       <section id="about">
+           <h2>About Me</h2>
+           <p id="about-me"></p>
+           <div class="resume-download">
+               <a href="Shri_Srivastava_CV.pdf" download>Download Resume</a>
+           </div>
+       </section>
+       <section id="skills">
+           <h2>Skills</h2>
+           <ul id="skills-list"></ul>
+       </section>
+       <section id="projects">
+           <h2>Projects</h2>
+           <div id="projects-container"></div>
+       </section>
+       <section id="experience">
+           <h2>Experience</h2>
+           <div id="experience-container"></div>
+       </section>
+       <section id="education">
+           <h2>Education</h2>
+           <div id="education-container"></div>
+       </section>
+       <section id="contact">
+           <h2>Contact</h2>
+           <form id="contact-form">
+               <label for="name">Name</label>
+               <input type="text" id="name" name="name" required>
+               <label for="email">Email</label>
+               <input type="email" id="email" name="email" required>
+               <label for="message">Message</label>
+               <textarea id="message" name="message" required></textarea>
+               <button type="submit">Send</button>
+           </form>
+       </section>
+   </main>
+   <footer>
+       <p>&copy; 2024 Shri Srivastava's Portfolio</p>
+   </footer>
+   <script src="script.js"></script>
+</body>
+</html>
